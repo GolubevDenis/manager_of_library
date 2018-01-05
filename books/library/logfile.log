@@ -1,0 +1,26 @@
+2017-12-05 17:09:00 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@621ae7: startup date [Tue Dec 05 17:09:00 MSK 2017]; root of context hierarchy
+2017-12-05 17:10:34 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f5964dc: startup date [Tue Dec 05 17:10:34 MSK 2017]; root of context hierarchy
+2017-12-05 17:11:16 INFO  MyLogger:52 - Начинается процесс установки приложения...
+2017-12-05 17:11:16 INFO  MyLogger:52 - Создание файла D:\files\music\p\logs
+2017-12-05 17:11:16 INFO  MyLogger:52 - Создание файла D:\files\music\p\data
+2017-12-05 17:11:16 INFO  MyLogger:52 - Настройка логирования...
+2017-12-05 17:11:16 INFO  MyLogger:52 - Логирование в D:\files\music\p/logs/file_log.log
+2017-12-05 17:11:16 INFO  MyLogger:52 - Настройка логирования завершена
+2017-12-05 17:11:16 INFO  MyLogger:52 - Копирование файлов в D:\files\music\p
+2017-12-05 17:11:16 INFO  MyLogger:22 - Copy D:\projects\java\sample-springboot-javafx-master\target\classes in  D:\files\music\p\classes
+2017-12-05 17:11:16 INFO  MyLogger:22 - Copy D:\projects\java\sample-springboot-javafx-master\target\classes in  D:\files\music\p\classes complited
+2017-12-05 17:11:16 INFO  MyLogger:22 - Copy D:\projects\java\sample-springboot-javafx-master\target\generated-sources in  D:\files\music\p\generated-sources
+2017-12-05 17:11:16 INFO  MyLogger:22 - Copy D:\projects\java\sample-springboot-javafx-master\target\generated-sources in  D:\files\music\p\generated-sources complited
+2017-12-05 17:11:16 INFO  MyLogger:52 - Копирование файлов в D:\files\music\p завершено
+2017-12-05 17:11:16 INFO  MyLogger:52 - Завершение установки
+2017-12-06 12:54:33 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f2a0e49: startup date [Wed Dec 06 12:54:33 MSK 2017]; root of context hierarchy
+2017-12-06 12:54:34 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-06 12:54:34 WARN  AnnotationConfigApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookRepositoryImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [books/library/DaoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.hibernate5.LocalSessionFactoryBean]: Factory method 'sessionFactory' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateProperties' defined in class path resource [books/library/DaoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [java.util.Properties]: Factory method 'hibernateProperties' threw exception; nested exception is java.lang.NullPointerException
+2017-12-06 12:55:12 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@621ae7: startup date [Wed Dec 06 12:55:12 MSK 2017]; root of context hierarchy
+2017-12-06 12:55:13 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-06 12:55:13 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-06 12:55:13 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-06 12:55:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-06 12:55:14 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : No suitable driver found for D:\projects\java\sample-springboot-javafx-master\target/data/booksDB.db
+2017-12-06 12:55:14 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-12-06 12:55:14 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null

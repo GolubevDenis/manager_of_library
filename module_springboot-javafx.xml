@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_springboot-javafx" default="compile.module.springboot-javafx">
+  <dirname property="module.springboot-javafx.basedir" file="${ant.file.module_springboot-javafx}"/>
+  
+  <property name="module.jdk.home.springboot-javafx" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.springboot-javafx" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.springboot-javafx" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.springboot-javafx" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="springboot-javafx.output.dir" value="${module.springboot-javafx.basedir}/target/classes"/>
+  <property name="springboot-javafx.testoutput.dir" value="${module.springboot-javafx.basedir}/target/test-classes"/>
+  
+  <path id="springboot-javafx.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="springboot-javafx.module.production.classpath">
+    <path refid="${module.jdk.classpath.springboot-javafx}"/>
+    <path refid="library.maven:_org.springframework:spring-core:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jcl:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-log4j:1.3.8.release.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.21.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.21.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.7.21.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:5.0.1.release.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-test:5.0.1.release.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.17.classpath"/>
+    <path refid="library.maven:_jstl:jstl:1.2.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-el:9.0.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.8.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.8.0.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.8.7.classpath"/>
+  </path>
+  
+  <path id="springboot-javafx.runtime.production.module.classpath">
+    <pathelement location="${springboot-javafx.output.dir}"/>
+    <path refid="library.maven:_org.springframework:spring-core:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jcl:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-log4j:1.3.8.release.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.21.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.21.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.7.21.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:5.0.1.release.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-test:5.0.1.release.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.17.classpath"/>
+    <path refid="library.maven:_jstl:jstl:1.2.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-el:9.0.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.8.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.8.0.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.8.7.classpath"/>
+  </path>
+  
+  <path id="springboot-javafx.module.classpath">
+    <path refid="${module.jdk.classpath.springboot-javafx}"/>
+    <pathelement location="${springboot-javafx.output.dir}"/>
+    <path refid="library.maven:_org.springframework:spring-core:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jcl:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-log4j:1.3.8.release.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.21.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.21.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.7.21.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:5.0.1.release.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-test:5.0.1.release.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.17.classpath"/>
+    <path refid="library.maven:_jstl:jstl:1.2.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-el:9.0.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.8.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.8.0.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.8.7.classpath"/>
+  </path>
+  
+  <path id="springboot-javafx.runtime.module.classpath">
+    <pathelement location="${springboot-javafx.testoutput.dir}"/>
+    <pathelement location="${springboot-javafx.output.dir}"/>
+    <path refid="library.maven:_org.springframework:spring-core:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jcl:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-log4j:1.3.8.release.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.21.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.21.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.7.21.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:5.0.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:5.0.1.release.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-test:5.0.1.release.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.17.classpath"/>
+    <path refid="library.maven:_jstl:jstl:1.2.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-el:9.0.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.8.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.8.0.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.8.7.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.springboot-javafx">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.springboot-javafx">
+    <patternset refid="excluded.from.module.springboot-javafx"/>
+  </patternset>
+  
+  <path id="springboot-javafx.module.sourcepath">
+    <dirset dir="${module.springboot-javafx.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="springboot-javafx.module.test.sourcepath">
+    <dirset dir="${module.springboot-javafx.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.springboot-javafx" depends="compile.module.springboot-javafx.production,compile.module.springboot-javafx.tests" description="Compile module springboot-javafx"/>
+  
+  <target name="compile.module.springboot-javafx.production" depends="register.custom.compilers" description="Compile module springboot-javafx; production classes">
+    <mkdir dir="${springboot-javafx.output.dir}"/>
+    <javac2 destdir="${springboot-javafx.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.springboot-javafx}/javac">
+      <compilerarg line="${compiler.args.springboot-javafx}"/>
+      <bootclasspath refid="springboot-javafx.module.bootclasspath"/>
+      <classpath refid="springboot-javafx.module.production.classpath"/>
+      <src refid="springboot-javafx.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.springboot-javafx"/>
+    </javac2>
+    
+    <copy todir="${springboot-javafx.output.dir}">
+      <fileset dir="${module.springboot-javafx.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.springboot-javafx.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.springboot-javafx.tests" depends="register.custom.compilers,compile.module.springboot-javafx.production" description="compile module springboot-javafx; test classes" unless="skip.tests">
+    <mkdir dir="${springboot-javafx.testoutput.dir}"/>
+    <javac2 destdir="${springboot-javafx.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.springboot-javafx}/javac">
+      <compilerarg line="${compiler.args.springboot-javafx}"/>
+      <bootclasspath refid="springboot-javafx.module.bootclasspath"/>
+      <classpath refid="springboot-javafx.module.classpath"/>
+      <src refid="springboot-javafx.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.springboot-javafx"/>
+    </javac2>
+    
+    <copy todir="${springboot-javafx.testoutput.dir}">
+      <fileset dir="${module.springboot-javafx.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.springboot-javafx" description="cleanup module">
+    <delete dir="${springboot-javafx.output.dir}"/>
+    <delete dir="${springboot-javafx.testoutput.dir}"/>
+  </target>
+</project>

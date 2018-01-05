@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="main_border_pane"  prefHeight="600.0" prefWidth="800.0" styleClass="dark-background" stylesheets="@../css/neitral_style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="books.library.controller.MainController">
+    <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Accordion layoutY="37.0" prefHeight="513.0" prefWidth="140.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="35.0">
+              <panes>
+                <TitledPane animated="false" prefHeight="460.0" prefWidth="130.0" text="Главное">
+                     <content>
+                        <VBox styleClass="light-background" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label fx:id="label_books" styleClass="white-label" onMouseClicked="#showBooksView" text="Книги">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding></Label>
+                              <Label fx:id="label_readers" styleClass="white-label" onMouseClicked="#showReadersView" text="Читатели">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding></Label>
+                              <Label fx:id="label_expired" styleClass="white-label" onMouseClicked="#showExpiredView" text="Просроченное">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding></Label>
+                           </children>
+                        </VBox>
+                     </content>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                </TitledPane>
+                <TitledPane animated="false" text="Статистика">
+                     <content>
+                        <VBox styleClass="light-background" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label fx:id="statistics_general" styleClass="white-label" onMouseClicked="#showStatisticsGeneralView" text="Общая">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="statistics_subscriptions" styleClass="white-label" onMouseClicked="#showStatisticsSubscriptionView" text="Подписки">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
+                              </Label>
+                           </children></VBox>
+                     </content>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                </TitledPane>
+                <TitledPane animated="false" text="Настройки">
+                     <content>
+                        <VBox styleClass="light-background" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label fx:id="label_setting" styleClass="white-label" onMouseClicked="#showSettingView" text="Общие">
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Label>
+                           </children></VBox>
+                     </content>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                </TitledPane>
+              </panes>
+            </Accordion>
+            <BorderPane styleClass="dark-background" fx:id="main_pane" layoutX="100.0" prefHeight="600.0" prefWidth="701.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane styleClass="dark-background" prefHeight="50.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label styleClass="white-label" fx:id="copy_db" layoutX="55.0" layoutY="17.0" onMouseClicked="#copy_db" text="Резервное копирование базы данных" AnchorPane.leftAnchor="55.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label styleClass="white-label" fx:id="clear_db" layoutX="542.0" layoutY="17.0" onMouseClicked="#clear_db" text="Очистить базу данных" AnchorPane.leftAnchor="542.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label styleClass="white-label" fx:id="replace_db" layoutX="338.0" layoutY="17.0" onMouseClicked="#replace_db" text="Заменить базу данных" AnchorPane.leftAnchor="338.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

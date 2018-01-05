@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #03A9F4;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="books.library.controller.SplashScreenController">
+   <children>
+      <Label layoutX="142.0" layoutY="42.0" text="Добро пожаловать" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ProgressIndicator fx:id="progress" layoutX="188.0" layoutY="96.0" prefHeight="255.0" prefWidth="210.0" progress="0.0" style="-fx-progress-color: #01579B;" />
+   </children>
+</AnchorPane>

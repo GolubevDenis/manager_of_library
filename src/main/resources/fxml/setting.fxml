@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="books.library.controller.SettingController">
+   <children>
+      <TabPane layoutY="-5.0" prefHeight="305.0" prefWidth="383.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Книги">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="28.0" layoutY="27.0" prefHeight="22.0" text="Показывать колонки:" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="27.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="28.0" layoutY="57.0" prefHeight="20.0" text="Номер:" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="57.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="74.0" prefHeight="20.0" text="Отдел:" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="77.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="91.0" prefHeight="20.0" text="Заголовок" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="97.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="108.0" prefHeight="20.0" text="Автор" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="117.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="125.0" prefHeight="20.0" text="Год выпуска" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="137.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="30.0" layoutY="142.0" prefHeight="20.0" text="Статус" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="157.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="30.0" layoutY="158.0" prefHeight="20.0" text="Издательство" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="177.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="31.0" layoutY="177.0" prefHeight="20.0" text="Язык" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="197.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="33.0" layoutY="194.0" prefHeight="20.0" text="Жанр" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="217.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="32.0" layoutY="211.0" prefHeight="20.0" text="Описание" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="237.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <Label layoutX="32.0" layoutY="228.0" prefHeight="20.0" text="Количество страниц" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="257.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font></Label>
+                        <CheckBox fx:id="number" layoutX="119.0" layoutY="59.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="59.0" />
+                        <CheckBox fx:id="otdel" layoutX="116.0" layoutY="79.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="79.0" />
+                        <CheckBox fx:id="title" layoutX="136.0" layoutY="99.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="99.0" />
+                        <CheckBox fx:id="author" layoutX="109.0" layoutY="119.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="119.0" />
+                        <CheckBox fx:id="year" layoutX="147.0" layoutY="139.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="139.0" />
+                        <CheckBox fx:id="status" layoutX="110.0" layoutY="159.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="159.0" />
+                        <CheckBox fx:id="publisher" layoutX="165.0" layoutY="179.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="179.0" />
+                        <CheckBox fx:id="language" layoutX="185.0" layoutY="199.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="199.0" />
+                        <CheckBox fx:id="genre" layoutX="158.0" layoutY="219.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="219.0" />
+                        <CheckBox fx:id="description" layoutX="196.0" layoutY="239.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="239.0" />
+                        <CheckBox fx:id="count_pages" layoutX="159.0" layoutY="259.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="259.0" />
+                        <Button fx:id="save_book" layoutX="512.0" layoutY="332.0" mnemonicParsing="false" onAction="#book_save" text="Сохранить" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Читатели">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="79.0" layoutY="232.0" prefHeight="22.0" text="Показывать колонки:" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="27.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="28.0" layoutY="77.0" prefHeight="20.0" text="Имя" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="77.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <CheckBox fx:id="first_name" layoutX="170.0" layoutY="77.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="77.0" />
+                        <Button fx:id="save_reader" layoutX="499.0" layoutY="320.0" mnemonicParsing="false" onAction="#reader_save" text="Сохранить" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+                        <Label layoutX="28.0" layoutY="97.0" prefHeight="20.0" text="Фамилия" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="97.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="117.0" prefHeight="20.0" text="Отчество" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="117.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="137.0" prefHeight="20.0" text="Год рождения" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="137.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="157.0" prefHeight="20.0" text="Номер телефона" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="157.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="177.0" prefHeight="20.0" text="Домашний адрес" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="177.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="197.0" prefHeight="20.0" text="Образование" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="197.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="217.0" prefHeight="20.0" text="Учебное заведение" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="217.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="237.0" prefHeight="20.0" text="Профессия" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="237.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="257.0" prefHeight="20.0" text="Место работы" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="257.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="277.0" prefHeight="20.0" text="Номер паспорта" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="277.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="297.0" prefHeight="20.0" text="Серия паспорта" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="297.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="317.0" prefHeight="20.0" text="Кем и когда выдан" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="317.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="28.0" layoutY="337.0" prefHeight="20.0" text="Состоит читателем с" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="337.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <CheckBox fx:id="last_name" layoutX="170.0" layoutY="97.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="97.0" />
+                        <CheckBox fx:id="otchestvo" layoutX="170.0" layoutY="117.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="117.0" />
+                        <CheckBox fx:id="birth_year" layoutX="170.0" layoutY="137.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="137.0" />
+                        <CheckBox fx:id="phone" layoutX="170.0" layoutY="157.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="157.0" />
+                        <CheckBox fx:id="address" layoutX="170.0" layoutY="177.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="177.0" />
+                        <CheckBox fx:id="education" layoutX="170.0" layoutY="197.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="197.0" />
+                        <CheckBox fx:id="scool" layoutX="170.0" layoutY="217.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="217.0" />
+                        <CheckBox fx:id="profession" layoutX="170.0" layoutY="237.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="237.0" />
+                        <CheckBox fx:id="job" layoutX="170.0" layoutY="257.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="257.0" />
+                        <CheckBox fx:id="number_passport" layoutX="170.0" layoutY="277.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="277.0" />
+                        <CheckBox fx:id="seria_passport" layoutX="170.0" layoutY="297.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="297.0" />
+                        <CheckBox fx:id="who_and_when" layoutX="170.0" layoutY="317.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="317.0" />
+                        <CheckBox fx:id="entry_date" layoutX="170.0" layoutY="337.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="337.0" />
+                        <Label layoutX="26.0" layoutY="57.0" prefHeight="20.0" text="Номер" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="57.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="number_reader" layoutX="168.0" layoutY="57.0" mnemonicParsing="false" prefHeight="15.0" AnchorPane.leftAnchor="168.0" AnchorPane.topAnchor="57.0" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,176 @@
+2017-12-17 18:35:15 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324bfa: startup date [Sun Dec 17 18:35:15 MSK 2017]; root of context hierarchy
+2017-12-17 18:35:16 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 18:35:16 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 18:35:16 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 18:35:16 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 18:35:16 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 18:35:16 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 18:35:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 18:35:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 18:35:16 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 18:35:16 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 18:35:17 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2de0c3] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 18:35:18 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 18:35:18 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 18:35:18 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 18:35:18 INFO  MyLogger:50 - Извлечение всех записей из таблицы readers
+2017-12-17 18:35:35 INFO  MyLogger:80 - Начинается процесс установки приложения...
+2017-12-17 18:35:35 INFO  MyLogger:80 - Настройка логирования...
+2017-12-17 18:35:35 INFO  MyLogger:80 - Логирование в D:\files\music\p/logs\file_log.log
+2017-12-17 18:35:35 INFO  MyLogger:80 - Настройка логирования завершена
+2017-12-17 18:35:35 INFO  MyLogger:80 - Копирование файлов в D:\files\music\p
+2017-12-17 18:35:45 INFO  MyLogger:80 - Копирование файлов в D:\files\music\p завершено
+2017-12-17 18:35:45 INFO  MyLogger:80 - Создание лаунчера на рабочем столе...
+2017-12-17 18:35:45 INFO  MyLogger:80 - Создание лаунчера на рабочем столе завершено...
+2017-12-17 18:35:45 INFO  MyLogger:80 - Завершение установки
+2017-12-17 18:35:56 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1fb044d: startup date [Sun Dec 17 18:35:56 MSK 2017]; root of context hierarchy
+2017-12-17 18:35:57 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 18:35:57 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 18:35:57 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 18:35:57 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 18:35:57 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 18:35:57 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 18:35:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 18:35:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 18:35:57 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 18:35:58 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 18:35:58 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@8ce558] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 18:35:59 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 18:35:59 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 18:35:59 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 18:35:59 INFO  MyLogger:50 - Извлечение всех записей из таблицы readers
+2017-12-17 18:36:23 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 18:37:09 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 18:37:12 INFO  MyLogger:50 - Извлечение всех записей из таблицы readers
+2017-12-17 18:37:24 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 18:37:34 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 18:37:38 WARN  deprecation:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-17 18:37:38 WARN  deprecation:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-17 18:37:38 WARN  deprecation:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-17 18:37:38 WARN  deprecation:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-17 18:38:05 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 19:27:18 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@440a68: startup date [Sun Dec 17 19:27:18 MSK 2017]; root of context hierarchy
+2017-12-17 19:27:19 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 19:27:19 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 19:27:19 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 19:27:19 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 19:27:19 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 19:27:19 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 19:27:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 19:27:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 19:27:19 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 19:27:19 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 19:27:20 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@55d8d6] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 19:27:21 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 19:27:21 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 19:27:21 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 19:27:21 INFO  MyLogger:50 - Извлечение всех записей из таблицы readers
+2017-12-17 18:31:08 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324bfa: startup date [Sun Dec 17 18:31:08 MSK 2017]; root of context hierarchy
+2017-12-17 18:31:08 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 18:31:08 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 18:31:08 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 18:31:08 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 18:31:08 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 18:31:08 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 18:31:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 18:31:09 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 18:31:09 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 18:31:09 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 18:31:10 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2de0c3] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 18:31:10 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 18:31:10 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 18:31:11 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 18:31:11 INFO  MyLogger:50 - Извлечение всех записей из таблицы readers
+2017-12-17 18:32:45 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324bfa: startup date [Sun Dec 17 18:32:45 MSK 2017]; root of context hierarchy
+2017-12-17 18:32:45 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 18:32:46 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 18:32:46 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 18:32:46 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 18:32:46 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 18:32:46 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 18:32:46 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 18:32:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 18:32:46 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 18:32:46 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 18:32:47 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2de0c3] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 18:32:47 WARN  AnnotationConfigApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'statisticsSubscriptionView'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsSubscriptionView' defined in class path resource [books/library/ViewConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [books.library.ViewHolder]: Factory method 'getStatisticsSubscriptionView' threw exception; nested exception is javafx.fxml.LoadException: Invalid resource: /css/neitral_style.css not found on the classpath
+unknown path:28
+
+2017-12-17 18:33:41 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ca5f29: startup date [Sun Dec 17 18:33:41 MSK 2017]; root of context hierarchy
+2017-12-17 18:33:41 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 18:33:41 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 18:33:41 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 18:33:41 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 18:33:41 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 18:33:41 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 18:33:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 18:33:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 18:33:42 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 18:33:42 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 18:33:43 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1f6c84d] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 18:33:43 WARN  AnnotationConfigApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'statisticsSubscriptionView'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsSubscriptionView' defined in class path resource [books/library/ViewConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [books.library.ViewHolder]: Factory method 'getStatisticsSubscriptionView' threw exception; nested exception is javafx.fxml.LoadException: Invalid resource: /css/neitral_style.css not found on the classpath
+unknown path:28
+
+2017-12-17 18:33:49 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324bfa: startup date [Sun Dec 17 18:33:49 MSK 2017]; root of context hierarchy
+2017-12-17 18:33:49 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 18:33:49 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 18:33:49 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 18:33:49 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 18:33:49 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 18:33:49 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 18:33:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 18:33:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 18:33:50 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 18:33:50 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 18:33:51 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2de0c3] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 18:33:51 WARN  AnnotationConfigApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'statisticsSubscriptionView'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsSubscriptionView' defined in class path resource [books/library/ViewConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [books.library.ViewHolder]: Factory method 'getStatisticsSubscriptionView' threw exception; nested exception is javafx.fxml.LoadException: Invalid resource: /css/neitral_style.css not found on the classpath
+unknown path:28
+
+2017-12-17 18:38:51 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324bfa: startup date [Sun Dec 17 18:38:51 MSK 2017]; root of context hierarchy
+2017-12-17 18:38:52 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 18:38:52 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 18:38:52 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 18:38:52 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 18:38:52 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 18:38:52 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 18:38:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 18:38:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 18:38:52 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 18:38:52 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 18:38:53 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2de0c3] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 18:38:55 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 18:38:55 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 18:38:56 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 18:38:56 INFO  MyLogger:50 - Извлечение всех записей из таблицы readers
+2017-12-17 19:01:24 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324bfa: startup date [Sun Dec 17 19:01:24 MSK 2017]; root of context hierarchy
+2017-12-17 19:01:24 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 19:01:24 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 19:01:24 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 19:01:24 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 19:01:24 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 19:01:25 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 19:01:25 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 19:01:25 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 19:01:25 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 19:01:25 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 19:01:26 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2de0c3] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 19:01:26 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 19:01:26 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 19:01:26 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 19:01:27 INFO  MyLogger:50 - Извлечение всех записей из таблицы readers
+2017-12-17 19:04:48 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324bfa: startup date [Sun Dec 17 19:04:48 MSK 2017]; root of context hierarchy
+2017-12-17 19:04:48 INFO  AutowiredAnnotationBeanPostProcessor:154 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-17 19:04:48 INFO  MyLogger:42 - Настройки логирования загружены!
+2017-12-17 19:04:48 INFO  MyLogger:50 - Загрузка настроек...
+2017-12-17 19:04:48 INFO  MyLogger:50 - Загрузка настроек завершена
+2017-12-17 19:04:48 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.sqlite.JDBC
+2017-12-17 19:04:48 INFO  Version:45 - HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-17 19:04:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-12-17 19:04:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 19:04:49 INFO  Dialect:157 - HHH000400: Using dialect: com.enigmabridge.hibernate.dialect.SQLiteDialect
+2017-12-17 19:04:49 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2017-12-17 19:04:49 INFO  HibernateTransactionManager:378 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2de0c3] of Hibernate SessionFactory for HibernateTransactionManager
+2017-12-17 19:04:50 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 19:04:50 INFO  MyLogger:50 - Извлечение всех записей из таблицы subscriptions
+2017-12-17 19:04:50 INFO  MyLogger:50 - Извлечение всех записей из таблицы books
+2017-12-17 19:04:50 INFO  MyLogger:50 - Извлечение всех записей из таблицы readers

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="450.0" styleClass="light-background" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="books.library.controller.EditSubscriptionController">
+    <children>
+        <Label layoutX="15.0" layoutY="11.0" prefHeight="25.0" prefWidth="119.0" text="Срок возврата книги" AnchorPane.leftAnchor="15.0" />
+        <Label layoutX="13.0" layoutY="40.0" prefHeight="25.0" prefWidth="55.0" text="Инв. №" AnchorPane.leftAnchor="15.0" />
+        <Label layoutX="12.0" layoutY="94.0" prefHeight="25.0" prefWidth="93.0" text="Автор" AnchorPane.leftAnchor="15.0" />
+        <Label layoutX="15.0" layoutY="122.0" prefHeight="25.0" prefWidth="93.0" text="Заглавие" AnchorPane.leftAnchor="15.0" />
+        <Label layoutX="14.0" layoutY="66.0" prefHeight="25.0" prefWidth="55.0" text="Отдел" AnchorPane.leftAnchor="15.0" />
+        <DatePicker fx:id="date_return" layoutX="139.0" layoutY="10.0" prefHeight="25.0" prefWidth="126.0" AnchorPane.rightAnchor="185.0" />
+        <TextField fx:id="number" layoutX="139.0" layoutY="39.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.rightAnchor="61.0" />
+        <TextField fx:id="title" layoutX="139.0" layoutY="122.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.rightAnchor="61.0" />
+        <TextField fx:id="author" layoutX="139.0" layoutY="94.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.rightAnchor="61.0" />
+        <TextField fx:id="otdel" layoutX="139.0" layoutY="66.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.rightAnchor="61.0" />
+        <Button fx:id="button_save" defaultButton="true" layoutX="309.0" layoutY="173.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="100.0" text="Сохранить" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="10.0" />
+        <Button fx:id="button_cancel" cancelButton="true" layoutX="227.0" layoutY="173.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="100.0" text="Отмена" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="120.0" />
+      <Button fx:id="week" layoutX="333.0" layoutY="10.0" mnemonicParsing="false" onAction="#addWeek" prefHeight="25.0" prefWidth="50.0" text="+ н" AnchorPane.rightAnchor="67.0" AnchorPane.topAnchor="10.0" />
+      <Button fx:id="mounth" layoutX="351.0" layoutY="11.0" mnemonicParsing="false" onAction="#addMounth" prefHeight="25.0" prefWidth="50.0" text="+ м" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Button fx:id="day" layoutX="277.0" layoutY="10.0" mnemonicParsing="false" onAction="#addDay" prefHeight="25.0" prefWidth="50.0" text="+ д" AnchorPane.rightAnchor="123.0" AnchorPane.topAnchor="10.0" />
+    </children>
+</AnchorPane>

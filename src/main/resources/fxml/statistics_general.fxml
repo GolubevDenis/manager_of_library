@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="books.library.controller.StatisticsGeneralController">
+   <children>
+      <Label layoutX="79.0" layoutY="44.0" text="Всего книг:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="381.0" layoutY="44.0" text="Всего читателей">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="41.0" layoutY="225.0" text="Активных подписок:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="361.0" layoutY="225.0" text="Подписок за все время:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="count_books" alignment="CENTER" layoutX="95.0" layoutY="69.0" prefHeight="17.0" prefWidth="61.0" text="0">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="count_readers" alignment="CENTER" layoutX="403.0" layoutY="69.0" prefHeight="17.0" prefWidth="90.0" text="0">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="count_all_subscription" alignment="CENTER" layoutX="394.0" layoutY="249.0" prefHeight="17.0" prefWidth="131.0" text="0">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="count_active_subscription" alignment="CENTER" layoutX="69.0" layoutY="249.0" prefHeight="17.0" prefWidth="112.0" text="0">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

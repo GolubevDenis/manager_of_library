@@ -1,0 +1,1 @@
+To install this application run book_manager.jar and follow the instructions.

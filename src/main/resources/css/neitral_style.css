@@ -1,0 +1,140 @@
+
+.dark-background{
+    -fx-background-color: #03A9F4;
+}
+
+.light-background{
+    -fx-background-color: #81D4FA;
+}
+
+.label{
+    -fx-color: #424242;
+}
+
+.button{
+    -fx-color: #01579B;
+    -fx-text-fill: white;
+}
+
+.white-label{
+    -fx-text-fill: white;
+}
+
+
+
+
+.combo-box .list-cell {
+    -fx-background-color: #01579B;
+    /*-fx-text-fill: -fx-text-base-color;*/
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view {
+    -fx-text-fill: white;
+    -fx-background-color: #01579B, #01579B;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
+
+.combo-box-popup .list-view .list-cell {
+
+    -fx-text-fill: white;
+    -fx-background-color: #01579B;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover {
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+
+
+
+/* Default row background is black */
+.table-row-cell {
+    -fx-background-color: #E1F5FE;
+}
+
+/* Text in the rows will be white */
+.table-row-cell .text {
+    -fx-fill: black ;
+}
+
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #B3E5FC;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #039BE5;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-fill: white ;
+}
+
+.table-row-cell .text:selected {
+    -fx-fill: white ;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header{
+    -fx-background-color: #01579B;
+}
+
+
+.accordion .titled-pane .title {
+    -fx-background-color: #01579B;
+}
+
+.accordion .titled-pane{
+    -fx-text-fill: white;
+}
+
+.accordion .title > .arrow-button .arrow{
+    -fx-opacity: 0;
+}
+
+
+
+.tab-pane *.tab-header-area *.tab-header-background {
+    -fx-background-color:#01579B;
+}
+
+.tab {
+    -fx-background-color: #01579B;
+}
+
+.tab:selected {
+    -fx-background-color:#039BE5 ;
+}
+
+.tab .tab-label {
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 15;
+}
+
+
+
+
+.context-menu {
+    -fx-background-color: #006699;
+    -fx-text-fill: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}
