@@ -9,6 +9,9 @@ import javafx.scene.control.CheckBox;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.util.HashSet;
+import java.util.TreeSet;
 
 public class SettingController implements UpdateData{
 
@@ -23,9 +26,7 @@ public class SettingController implements UpdateData{
     @FXML private CheckBox genre;
     @FXML private CheckBox description;
     @FXML private CheckBox count_pages;
-    @FXML private Button save_book;
 
-    @FXML private Button save_reader;
     @FXML private CheckBox first_name;
     @FXML private CheckBox last_name;
     @FXML private CheckBox birth_year;
@@ -81,43 +82,35 @@ public class SettingController implements UpdateData{
 
     @FXML
     private void reader_save(){
-        try {
-            setting.setProperty("reader_column_number", number_reader.isSelected());
-            setting.setProperty("reader_column_first_name", first_name.isSelected());
-            setting.setProperty("reader_column_last_name", last_name.isSelected());
-            setting.setProperty("reader_column_year_birth", birth_year.isSelected());
-            setting.setProperty("reader_column_phone", phone.isSelected());
-            setting.setProperty("reader_column_otchestvo", otchestvo.isSelected());
-            setting.setProperty("reader_column_address", address.isSelected());
-            setting.setProperty("reader_column_education", education.isSelected());
-            setting.setProperty("reader_column_school", scool.isSelected());
-            setting.setProperty("reader_column_profession", profession.isSelected());
-            setting.setProperty("reader_column_job", job.isSelected());
-            setting.setProperty("reader_column_number_passport", number_passport.isSelected());
-            setting.setProperty("reader_column_passport_series", seria_passport.isSelected());
-            setting.setProperty("reader_column_date_entry", entry_date.isSelected());
-            setting.setProperty("reader_column_who_and_when", who_and_when.isSelected());
-        } catch (IOException e) {
-            logger.logError("Ошибка сохранения настроек", e);
-        }
+        setting.setProperty("reader_column_number", number_reader.isSelected());
+        setting.setProperty("reader_column_first_name", first_name.isSelected());
+        setting.setProperty("reader_column_last_name", last_name.isSelected());
+        setting.setProperty("reader_column_year_birth", birth_year.isSelected());
+        setting.setProperty("reader_column_phone", phone.isSelected());
+        setting.setProperty("reader_column_otchestvo", otchestvo.isSelected());
+        setting.setProperty("reader_column_address", address.isSelected());
+        setting.setProperty("reader_column_education", education.isSelected());
+        setting.setProperty("reader_column_school", scool.isSelected());
+        setting.setProperty("reader_column_profession", profession.isSelected());
+        setting.setProperty("reader_column_job", job.isSelected());
+        setting.setProperty("reader_column_number_passport", number_passport.isSelected());
+        setting.setProperty("reader_column_passport_series", seria_passport.isSelected());
+        setting.setProperty("reader_column_date_entry", entry_date.isSelected());
+        setting.setProperty("reader_column_who_and_when", who_and_when.isSelected());
     }
 
     @FXML
     private void book_save(){
-        try {
-            setting.setProperty("book_colunmt_number", number.isSelected());
-            setting.setProperty("book_colunmt_otdel", otdel.isSelected());
-            setting.setProperty("book_colunmt_title", title.isSelected());
-            setting.setProperty("book_colunmt_author", author.isSelected());
-            setting.setProperty("book_colunmt_year", year.isSelected());
-            setting.setProperty("book_colunmt_status", status.isSelected());
-            setting.setProperty("book_colunmt_publisher", publisher.isSelected());
-            setting.setProperty("book_colunmt_language", language.isSelected());
-            setting.setProperty("book_colunmt_genre", genre.isSelected());
-            setting.setProperty("book_colunmt_description", description.isSelected());
-            setting.setProperty("book_colunmt_count_pages", count_pages.isSelected());
-        } catch (IOException e) {
-            logger.logError("Ошибка сохранения настроек", e);
-        }
+        setting.setProperty("book_colunmt_number", number.isSelected());
+        setting.setProperty("book_colunmt_otdel", otdel.isSelected());
+        setting.setProperty("book_colunmt_title", title.isSelected());
+        setting.setProperty("book_colunmt_author", author.isSelected());
+        setting.setProperty("book_colunmt_year", year.isSelected());
+        setting.setProperty("book_colunmt_status", status.isSelected());
+        setting.setProperty("book_colunmt_publisher", publisher.isSelected());
+        setting.setProperty("book_colunmt_language", language.isSelected());
+        setting.setProperty("book_colunmt_genre", genre.isSelected());
+        setting.setProperty("book_colunmt_description", description.isSelected());
+        setting.setProperty("book_colunmt_count_pages", count_pages.isSelected());
     }
 }
